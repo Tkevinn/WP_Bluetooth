@@ -1,0 +1,70 @@
+body{
+    background-color: #D7E4C0;
+    margin: 0 50px;
+    padding: 20px 0;
+    font-family: 'Spectral', serif;
+    line-height: 1.5;
+    color: #74492C;
+}
+
+.bt-cim {
+    font-weight: bold;      /* Félkövér */
+    font-style: italic;     /* NEM dőlt */
+    display: block;         /* Külön sorba rakja, hogy a margó hasson rá */
+    margin-bottom: 0;    /* Egy pici hely a cím és a szöveg között */
+}
+
+.bt-szoveg {
+    display: block;         /* Emiatt tudjuk eltolni az egész blokkot */
+    margin-left: 40px;      /* Ez tolja beljebb a szöveget (állítsd szemre) */
+    font-style: normal;     /* Ez biztosítja, hogy NEM dőlt */
+    text-align: justify;    /* Sorkizárt, hogy szép legyen a jobb széle is */
+    margin-top: 0  ;
+}
+table {
+    margin: 20px auto;            /* Középre igazítja a táblázatot */
+    border: 1px dotted #74492C;   /* A külső pontozott keret */
+    width: 50%;
+}
+
+th {
+    border-bottom: 1px solid #74492C; /* Folytonos vonal csak a fejléc aljára */
+    font-weight: bold;            /* Félkövér betű */
+}
+
+td, th {
+    text-align: center;           /* Minden szöveg középen van */
+    padding: 5px;            /* Belső margó, hogy kellően szélesek legyenek az oszlopok */
+}
+
+h3 {
+    font-family: 'Allura', cursive; /* A feladat által kért betűtípus */
+    font-size: 45px;                /* Az Allura alapból apró, fel kell nagyítani */
+    font-weight:normal;            /* A folyóírás normál vastagsággal a legszebb */
+    
+    /* A pontozott vonal beállítása */
+    border-bottom: 2px dotted #74492C; 
+    
+    /* TRÜKK: Ettől lesz a vonal pontosan olyan hosszú, mint a szöveg, 
+       és nem húzódik ki a képernyő széléig! */
+    display: inline-block;          
+    
+    margin-top: 40px;               /* Bőséges hely hagyása felülről */
+    margin-bottom: 15px;            /* Távolság az alatta lévő bekezdéstől */
+    line-height: 0.8;      /* Összenyomjuk a betű körüli láthatatlan dobozt */
+    padding-bottom: 2px;   /* Beállítjuk, hogy pontosan hány pixelre legyen a vonal a betűk aljától */
+
+}
+
+#harald{
+    float: right;        /* A képet a tároló jobb oldalára "lebegteti" */
+    margin-left: 20px;   /* Távolságot tart a tőle balra lévő szövegtől */
+    margin-bottom: 20px; /* Távolságot tart az alatta lévő elemektől */
+    border: 1px solid #74492C; /* (Opcionális) Ha a képen van egy vékony keret */
+
+}
+#blue{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;
+}
